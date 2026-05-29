@@ -1,0 +1,27 @@
+/*
+syntax:
+selector{
+propiety-1:value-1;
+propiety-n:value-n;
+}
+*/
+
+p{
+    background-color: antiquewhite;
+   border: 1px solid rgb(58, 28, 207);
+   border-radius: 5px;
+   padding: 5px;
+}
+
+/*
+transforming a link into a button
+*/
+a{
+    text-decoration: none;
+    font-family:monospace;
+    color: chocolate;
+    background-color: aquamarine;
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 30px;
+}

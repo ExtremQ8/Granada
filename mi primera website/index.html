@@ -4,8 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moft's website</title>
+    <link rel="stylesheet" href="style.css">
     <!-- This is a commentary inside html  -->
     <!-- Inside of the head we have the setup of the page and the link of the external files-->
+  <!-- styles of the html inside of the head-->
+ <!-- 
+ <style>
+p{
+  border: 1px solid rgb(58, 28, 207);
+  background-color: antiquewhite;
+}
+
+  </style>
+  -->
   </head>
   <body>
     <!-- label for text -->
@@ -17,7 +28,8 @@
         </strong>
 
         -->
-    <h1>My first website</h1>
+        <!-- inline style, we apply in the oening label with the attribute style5654-->
+    <h1 style="background-color: blue; color: aqua;">My first website</h1>
     <p>You can dream it and imagine it, you can create it and program it.</p>
     <p>This text is <strong>important</strong> but it's not a decoration</p>
     <p>this text is <em>also important</em> but it shows in italic</p>
@@ -102,7 +114,61 @@
       paragraph
     </p>
     <!-- 
-    
+    Semantic HTML
+
     -->
+    <h2> Example of Semantic HTML</h2>
+    <p><b>If you can dream it and imagine it, then you can program it</b></p>
+        <header>
+            <figure id="logo">
+                <img src="img\download.png" alt="Bitcoin logo">
+                <img src="https://images.pexels.com/photos/37643775/pexels-photo-37643775.jpeg" width="200">
+            </figure>
+            <nav>
+                <ul>
+                  <li>Blog</li>
+                <li>Photo gallery</li>
+            </ul>
+            </nav>
+        </header>
+
+        <main>
+          <section id="main-page">
+            <h2>Granada photo gallery</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Ab, iusto molestiae aspernatur totam soluta nam veritatis laboriosam facere! 
+               Quia nisi magni est? Delectus sint nobis non ullam at temporibus repellat!</p>
+             
+               <div class="images" >
+                <img src="https://images.pexels.com/photos/19916757/pexels-photo-19916757.jpeg" width="200">
+                <img src="https://images.pexels.com/photos/11142978/pexels-photo-11142978.jpeg" width="200>">
+               </div>
+            
+
+
+          </section>
+        </main>
+
+        <footer>
+          <!-- forms -->
+           <h3>HTML formulars</h3>
+           <form action="script.js" method="post">
+            <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            />
+            <label for="email">Email: </label>
+            <input type ="email" id="email" name="email"
+            placeholder="Write your email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password">
+
+            <button type="submit">Send form</button>
+            <button type="reset">Reset </button>
+           </form>
+        </footer>
   </body>
 </html>
