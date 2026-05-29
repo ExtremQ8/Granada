@@ -1,33 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moft's website</title>
     <!-- This is a commentary inside html  -->
-     <!-- Inside of the head we have the setup of the page and the link of the external files-->
-</head>
-<body>
-     <!-- label for text -->
-      <!-- paragraph: <p></p> -->
-       <!-- heading: <h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6>
+    <!-- Inside of the head we have the setup of the page and the link of the external files-->
+  </head>
+  <body>
+    <!-- label for text -->
+    <!-- paragraph: <p></p> -->
+    <!-- heading: <h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6>
         important text
         
         </em>
         </strong>
 
         -->
-        <h1>My first website</h1>
-        <p>You can dream it and imagine it, you can create it and program it.</p>
+    <h1>My first website</h1>
+    <p>You can dream it and imagine it, you can create it and program it.</p>
+    <p>This text is <strong>important</strong> but it's not a decoration</p>
+    <p>this text is <em>also important</em> but it shows in italic</p>
+    <!-- link labels-->
+    <a href="http://atigra.es">the best website in the world</a>
+
+    <!-- image tags -->
+    <!-- external images -->
+    <img
+      src="https://images.pexels.com/photos/25381396/pexels-photo-25381396.jpeg"
+      alt="a beautiful night in the city"
+      width="300"
+    />
+    <!-- local images -->
+    <img
+      src="img/pexels-cloudett-37775113.jpg"
+      alt="a beautiful day in the countryside"
+      width="260"
+      height="300"
+    />
+
+    <!-- lists -->
+    <!-- ordered list -->
+    <h3>Ordered list</h3>
+    <ol>
+      <li>Hello</li>
+      <li>Buna</li>
+      <li>Hola</li>
+    </ol>
+    <!-- unordered list -->
+    <h3>Unordered list</h3>
+    <ul>
+      <li>Moft</li>
+      <li>Ilu</li>
+      <li>Vas</li>
+      <li>Mem</li>
+    </ul>
+    <!-- global atributes
+    ID attributes (id)
+    Syntax: <open_label id="unique_id">
+        Description: We create a unique identity for the HTML element to target  it directly.
+        Can be used from CSS, href, JavaScript, etc.
+        Class Attributes
+        Syntax: <open_label class="class_name">
+            Example: 
+            <p class="appointment">
+                <p class="appointment">
+                    <div class="appointment">
+            Description: its a group identifier, \
+            You can apply the same name to multiple elements or groups of HTML elements.
+            Ideal for applying styles uniformly or making changes from javascript.
+    -->
+    <!-- Content Structure
+     empty Containers
+     <div> tag: storage container to group elements and/or content
+             
+            -->
+    <h2>grouping tags for containers</h2>
+    <div class="article">
+      <div class="figure">
+        <img
+          src="https://images.pexels.com/photos/35840900/pexels-photo-35840900.jpeg"
+          alt="a beautiful day in the countryside"
+          width="260"
+        />
+        <h4>Post title</h4>
         <p>
-            This text is <strong>important</strong> but it's not a decoration
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+          nesciunt ipsam asperiores molestias vitae cumque, sunt voluptates
+          odio! Distinctio at dicta dolorem voluptatibus incidunt dignissimos,
+          architecto nemo deleniti magnam? Cumque.
         </p>
-        <p> 
-            this text is <em>also important</em> but it shows in italic
-        </p>
-<!-- link labels--> 
- <a href="http://atigra.es">the best website in the world</a>
- 
- 
-</body>
+      </div>
+    </div>
+    <!-- span
+    is useful for details group content 
+    -->
+    <h2>Span tag</h2>
+    <p>Hello, <span id="name">Moft</span></p>
+    <p>
+      It's an <span class="highlight-text">highlight text</span> inside of a
+      paragraph
+    </p>
+    <!-- 
+    
+    -->
+  </body>
 </html>
